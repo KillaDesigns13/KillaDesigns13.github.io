@@ -19,7 +19,7 @@ openModal[i].addEventListener('click', () => {
   // finding model and material
   const modelViewerTexture = modal.querySelector('#viewer');
   const material = modelViewerTexture.model.materials[1];
-  console.log("material")
+  console.log(material)
   // Setting the modal elements
   modalTitle.innerHTML = text.innerHTML;
   modalText.innerHTML = price.innerHTML;

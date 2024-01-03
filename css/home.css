@@ -147,6 +147,8 @@ p.flex-item {
 }
 
 .shop-item {
+    display: flex;
+    flex-direction: column;
     background-color: purple;
     margin-right: 2%;
     margin-left: 1.5%;
@@ -219,7 +221,7 @@ p.flex-item {
     background-color: rgba(164, 102, 165, 0.5);
 }
 
-@media (min-width: 100px) {
+@media (min-width: 200px) {
     #nav-flex {
         font-size: 0.5rem;
     }
@@ -247,10 +249,9 @@ p.flex-item {
     .shop-button {
         position: relative;
         font-size: 1.75em;
-        padding: 5%;
-        margin-top: -30%;
-        margin-left: 0%;
-        bottom: 0%;
+        padding: 2%;
+        margin-top: -15%;
+        margin-left: 5%;
     }
 
     .close-modal{
@@ -311,10 +312,9 @@ p.flex-item {
     .shop-button {
         position: relative;
         font-size: 0.75em;
-        padding: 10px;
-        margin-top: -60px;
-        margin-left: 35px;
-        bottom: 4%;
+        padding: 0px;
+        margin-left: 10%;
+        top: 4%;
     }
 
     .close-modal{

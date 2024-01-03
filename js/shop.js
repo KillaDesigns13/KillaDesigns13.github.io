@@ -18,7 +18,7 @@ openModal[i].addEventListener('click', () => {
   var modalDesc = modal.querySelector('#modal-descripton');
   // finding model and material
   const modelViewerTexture = modal.querySelector('#viewer');
-  const material = modelViewerTexture.model.materials[1];
+  // const material = modelViewerTexture.model.materials[1];
   // Setting the modal elements
   modalTitle.innerHTML = text.innerHTML;
   modalText.innerHTML = price.innerHTML;
@@ -27,12 +27,12 @@ openModal[i].addEventListener('click', () => {
   // const texture = modelViewerTexture.createTexture("../../img/sagiri.png");
   // material.pbrMetallicRoughness['baseColorTexture'].setTexture(texture);
 
-  const createAndApplyTexture = async (img) => {
-    const texture = await modelViewerTexture.createTexture(img);
-    material.pbrMetallicRoughness['baseColorTexture'].setTexture(texture);
-  }
+  // const createAndApplyTexture = async (img) => {
+  //   const texture = await modelViewerTexture.createTexture(img);
+  //   material.pbrMetallicRoughness['baseColorTexture'].setTexture(texture);
+  // }
 
-  createAndApplyTexture(img);
+  // createAndApplyTexture(img);
 
 
   // Displaying the Modal

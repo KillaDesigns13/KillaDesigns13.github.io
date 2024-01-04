@@ -2307,7 +2307,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '6890776133703',
-        node: document.getElementById('product-component-1704334266287'),
+        node: document.getElementById('product-component-1704334710235'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
           "product": {
@@ -2442,4 +2442,3 @@
   }
 })();
 /*]]>*/
-

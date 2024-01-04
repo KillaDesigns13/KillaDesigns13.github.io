@@ -122,6 +122,10 @@ p.flex-item {
     transition: transform 20ms;
 }
 
+.shop-image{
+    height: 100%;
+}
+
 #shop-flex li button {
     transition: transform 20ms;
     position: relative;

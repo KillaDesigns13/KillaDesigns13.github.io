@@ -12,59 +12,64 @@ function getItems(url, cb) {
 
 getItems(url, (data) =>{
     jsondata = data.items;
+    for (let i = 1; i < jsondata.length; i++) {
+      const shopItem = document.createElement("li");
+      shopItem.classList.add("shop-item");
 
-    const shopItem = document.createElement("li");
-    shopItem.classList.add("shop-item");
+      const mainImg = document.createElement("img");
+      mainImg.classList.add("shop-image");
+      mainImg.src = jsondata[i]["image"];
+      mainImg.loading = "lazy";
+      shopItem.append(mainImg);
 
-    const mainImg = document.createElement("img");
-    mainImg.classList.add("shop-image");
-    mainImg.src = jsondata[0]["image"];
-    mainImg.loading = "lazy";
-    shopItem.append(mainImg);
+      const button = document.createElement("Button");
+      button.classList.add("open-modal");
+      button.classList.add("open");
+      const buttonText = document.createTextNode("Preview")
+      button.append(buttonText)
+      shopItem.append(button);
 
-    const button = document.createElement("Button");
-    button.classList.add("open-modal");
-    button.classList.add("open");
-    const buttonText = document.createTextNode("Preview")
-    button.append(buttonText)
-    shopItem.append(button);
+      const tumblerImg = document.createElement("img");
+      tumblerImg.classList.add("tumbler-texture");
+      tumblerImg.src = jsondata[i]["image"];
+      tumblerImg.loading = "lazy";
+      tumblerImg.style = "display:none;";
+      shopItem.append(tumblerImg);
 
-    const tumblerImg = document.createElement("img");
-    tumblerImg.classList.add("tumbler-texture");
-    tumblerImg.src = jsondata[0]["image"];
-    tumblerImg.loading = "lazy";
-    tumblerImg.style = "display:none;";
-    shopItem.append(tumblerImg);
+      const itemName = document.createElement("p");
+      itemName.classList.add("shop-item-text");
+      itemName.classList.add("shop-text");
+      const nameNode = document.createTextNode(jsondata[i]["name"]);
+      itemName.append(nameNode);
+      shopItem.append(itemName);
 
-    const itemName = document.createElement("p");
-    itemName.classList.add("shop-item-text");
-    itemName.classList.add("shop-text");
-    const nameNode = document.createTextNode(jsondata[0]["name"]);
-    itemName.append(nameNode);
-    shopItem.append(itemName);
+      const itemPrice = document.createElement("p");
+      itemPrice.classList.add("shop-item-text");
+      itemPrice.classList.add("shop-price");
+      const priceNode = document.createTextNode("$ " + jsondata[i]["price"]);
+      itemPrice.append(priceNode);
+      shopItem.append(itemPrice);
 
-    const itemPrice = document.createElement("p");
-    itemPrice.classList.add("shop-item-text");
-    itemPrice.classList.add("shop-price");
-    const priceNode = document.createTextNode("$ " + jsondata[0]["price"]);
-    itemPrice.append(priceNode);
-    shopItem.append(itemPrice);
+      const itemDesc = document.createElement("p");
+      itemDesc.classList.add("item-description");
+      const descNode = document.createTextNode(jsondata[i]["description"]);
+      itemDesc.style = "display:none;";
+      itemDesc.append(descNode);
+      shopItem.append(itemDesc);
 
-    const itemDesc = document.createElement("p");
-    itemDesc.classList.add("item-description");
-    const descNode = document.createTextNode(jsondata[0]["description"]);
-    itemDesc.style = "display:none;";
-    itemDesc.append(descNode);
-    shopItem.append(itemDesc);
+      const buttonID = document.createElement("div");
+      buttonID.id = "product-component-" + jsondata[i]["product-id"];
+      buttonID.classList.add("shop-button");
+      shopItem.append(buttonID);
 
-    const buttonID = document.createElement("div");
-    buttonID.id = "product-component-" + jsondata[0]["product-id"];
-    buttonID.classList.add("shop-button");
-    shopItem.append(buttonID);
+      shopList.append(shopItem);
+}
 
-    shopList.append(shopItem);
+var shopify = document.createElement("script")
+shopify.setAttribute("src", "/js/shop-buttons.js")
+document.body.appendChild(shopify);
 
-    const modal = document.querySelector('.modal');
+const modal = document.querySelector('.modal');
 const openModal = document.querySelectorAll('.open-modal');
 const closeModal = document.querySelector('.close-modal');
 
@@ -111,3 +116,4 @@ closeModal.addEventListener('click', () => {
   modal.close();
 })
 })
+

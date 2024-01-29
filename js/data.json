@@ -1,6 +1,13 @@
 {
     "items":[
         {
+            "name":"",
+            "price":"",
+            "description":"",
+            "image":"",
+            "product-id":""
+        },
+        {
             "name":"Custom - Stainless Steel Tumbler(20oz)",
             "price":"20.00",
             "description":"A Custom skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid. Disclaimer: Please visit the Contact page and call or text me in order to discuss the custom order.",
@@ -8,11 +15,102 @@
             "product-id":"1704334710235"
         },
         {
-            "name":"",
-            "price":"",
-            "description":"",
-            "image":"",
-            "product-id":""
+            "name":"WEDNESDAY - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A WEDNESDAY themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/WEDNESDAY.png",
+            "product-id":"1703904157867"
+        },
+        {
+            "name":"Unicorn - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Unicorn themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/unicorn.png",
+            "product-id":"1704249751548"
+        },
+        {
+            "name":"Tiana & Prince - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A The Princess and the Frog themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/tiana&prince.png",
+            "product-id":"1704250961823"
+        },
+        {
+            "name":"Sunflower Meadow - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Sunflower meadow themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/sunflower-meadow.png",
+            "product-id":"1704251007597"
+        },
+        {
+            "name":"Sunflower Butterfly - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Sunflower-Butterfly themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/sunflower-butterfly.png",
+            "product-id":"1704251253269'"
+        },
+        {
+            "name":"Self Love - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Self Love themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/self-love.png",
+            "product-id":"1704251312844"
+        },
+        {
+            "name":"Pooh & friends - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Winnie-the-Pooh themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/Pooh-&-friends.png",
+            "product-id":"1704333332913"
+        },
+        {
+            "name":"One Piece - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A One Piece themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/onepiece2.png",
+            "product-id":"1704333479700"
+        },
+        {
+            "name":"Jack & Sally - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Nightmare Before Christmas themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/Jack&Sally.png",
+            "product-id":"1704333554155"
+        },
+        {
+            "name":"Gear Fifth Luffy - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A One Piece themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/onepiece-luffy.jpg",
+            "product-id":"1704333663091"
+        },
+        {
+            "name":"Disney - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Disney themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/disneychara1.png",
+            "product-id":"1704333741364"
+        },
+        {
+            "name":"Spider-man - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A Spider-man themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/Spider-Man.jpg",
+            "product-id":"1704333799424"
+        },
+        {
+            "name":"One Piece - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A One Piece themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/Onepiece1.jpg",
+            "product-id":"1704333948117"
+        },
+        {
+            "name":"One Piece - Stainless Steel Tumbler(20oz)",
+            "price":"15.00",
+            "description":"A One Piece themed skinny stainless steel tumbler cup(20oz) that keeps contents cold and refreshing for 9+ hours and hot for 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof, see-through Lid.",
+            "image":"/img/onepiece3.jpg",
+            "product-id":"1704334053523"
         }
     ] 
 }
